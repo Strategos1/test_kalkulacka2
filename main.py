@@ -1,12 +1,5 @@
 import tkinter as tk
 
-<<<<<<< HEAD
-def sub(x, y):
-    return x + y
-
-print(add(4, 3))
-print(sub(5, 8))
-=======
 def button_click(number):
     current = entry.get()
     entry.delete(0, tk.END)
@@ -112,4 +105,3 @@ button_equal.grid(row=5, column=1, columnspan=2)
 
 # Run the main event loop
 root.mainloop()
->>>>>>> 18b7576 (kalkulacka)
